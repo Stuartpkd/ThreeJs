@@ -6,3 +6,7 @@ camera.position.z = 5;
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.getElementById('container').appendChild(renderer.domElement);
+
+const geometry = new THREE.BoxGeometry();
+
+
